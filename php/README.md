@@ -1,6 +1,6 @@
 # CRISvsGAME
 
-## Ubuntu 22.04
+## Ubuntu 22.04 & Ubuntu 24.04
 
 ### PHP Config
 
@@ -11,7 +11,7 @@ sudo apt install curl gpg
 G_PATH="/etc/apt/trusted.gpg.d/ondrej.gpg"
 R_PATH="/etc/apt/sources.list.d/ondrej-php.list"
 G_KEYS="https://keyserver.ubuntu.com/pks/lookup?op=get&search=0x"
-R_FING="14AA40EC0831756756D7F66C4F4EA0AAE5267A6C"
+R_FING="B8DC7E53946656EFBCE4C1DD71DAEAAB4AD4CAB6"
 R_LINK="https://ppa.launchpadcontent.net/ondrej/php/ubuntu"
 R_INFO="deb [signed-by=$G_PATH] $R_LINK \
 $(. /etc/os-release && echo "$VERSION_CODENAME") main"

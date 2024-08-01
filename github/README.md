@@ -1,6 +1,6 @@
 # CRISvsGAME
 
-## Ubuntu 22.04
+## Ubuntu 22.04 & Ubuntu 24.04
 
 ### Github Config
 
