@@ -22,13 +22,15 @@ sudo apt upgrade
 echo "Select the Python version you want to install:"
 echo "1. Python 3.11"
 echo "2. Python 3.12"
-echo "3. Python 3.13 (Prerelease)"
+echo "3. Python 3.13"
+echo "4. Python 3.14 (Prerelease)"
 echo "q. Exit without installing Python"
 read -p "Enter your choice ( 1 | 2 | 3 | q ): " CHOICE
 case $CHOICE in
 1) CHOICE=python3.11 ;;
 2) CHOICE=python3.12 ;;
 3) CHOICE=python3.13 ;;
+4) CHOICE=python3.14 ;;
 q) echo "Exiting." ;;
 *) CHOICE="" && echo "Invalid Choice. Exiting." ;;
 esac
